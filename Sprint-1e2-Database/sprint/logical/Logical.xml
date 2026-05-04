@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F0971066-3C2F-32B0-1238-AAE118A606B4" mainViewID="481B027C-36A1-D280-0361-2A3DCC9D1105">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-03 23:38:03 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

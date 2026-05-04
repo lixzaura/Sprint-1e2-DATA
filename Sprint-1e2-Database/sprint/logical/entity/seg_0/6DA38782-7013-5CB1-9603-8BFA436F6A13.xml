@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DA38782-7013-5CB1-9603-8BFA436F6A13" name="TB_VEICULO">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-03 23:55:08 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="veiculo_id" id="220CB106-1294-6FDD-7C21-2CB71960A1D7">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:19:15 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="B3D3CDC6-68E4-044F-7AB9-31D5FE0459B6">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:19:49 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="bicicleta" description=""/>
+<valueDef value="carro" description=""/>
+<valueDef value="metrô" description=""/>
+<valueDef value="moto" description=""/>
+<valueDef value="trem" description=""/>
+<valueDef value="ônibus" description=""/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emissao_por_km" id="20063E3A-FF33-03A4-2EAB-D54D3610102C">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:23:33 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE8290E0-5C93-26D3-43AB-B42D6164FA93" name="TB_VEICULO PK">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:23:57 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>220CB106-1294-6FDD-7C21-2CB71960A1D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

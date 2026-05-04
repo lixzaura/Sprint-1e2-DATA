@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2CB6DEA-53C5-972A-AC92-211965F143F3" name="TB_USUARIO_MISSAO">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:44:51 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_cumprimento" id="ACACF837-7864-AE97-266E-105B3DE18375">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:46:27 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="7EDE89A3-A036-6D32-AF21-133534656BBA">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:48:22 UTC</createdTime>
+<generatorID>71B02988-901A-7E0E-C228-1BFB4B3E1337</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="missao_id" id="AEEBDC58-19F3-3606-0277-5B99624823E2">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:53:55 UTC</createdTime>
+<generatorID>8804EDB1-33F4-F0C8-3E76-52083CD90BF8</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>B343372F-6AD1-020D-1977-C81573A9F031</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BD3AD8B-52A2-9037-7938-D80DE5DEE8EB" name="PK_Usuario_Missao">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 01:01:16 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AEEBDC58-19F3-3606-0277-5B99624823E2,7EDE89A3-A036-6D32-AF21-133534656BBA</newElementsIDs>
+<usedAttributes>
+<attributeRef>AEEBDC58-19F3-3606-0277-5B99624823E2</attributeRef>
+<attributeRef>7EDE89A3-A036-6D32-AF21-133534656BBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

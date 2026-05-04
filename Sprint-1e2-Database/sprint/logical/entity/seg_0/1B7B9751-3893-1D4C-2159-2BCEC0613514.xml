@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B7B9751-3893-1D4C-2159-2BCEC0613514" name="TB_VIAGEM">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:28:07 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="viagem_id" id="648302D2-B250-87E0-8D6E-2A5A20329983">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:28:56 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_viagem" id="918EABE9-F394-9544-C94C-8B709673E099">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:55:47 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="km_percorrido" id="7D07D9EB-3388-5E0B-3D67-D6872AD070AB">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:56:00 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="EDF82484-38AC-8A76-1F2F-BC212934F83D">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:48:58 UTC</createdTime>
+<generatorID>11CB4CE5-FBBB-A1BC-81AE-045A771B7924</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="veiculo_id" id="22C567AB-8696-AD3D-3975-174CB93A6A05">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 00:52:31 UTC</createdTime>
+<generatorID>CDA184D9-71F5-1AD0-4CA7-D75DE4BB1490</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>220CB106-1294-6FDD-7C21-2CB71960A1D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="652441B4-4E3B-BB69-6031-04CE9502AB35" name="TB_VIAGEM PK">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-04 01:03:09 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>648302D2-B250-87E0-8D6E-2A5A20329983</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
