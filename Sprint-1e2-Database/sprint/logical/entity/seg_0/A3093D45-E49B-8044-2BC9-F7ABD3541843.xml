@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2CB6DEA-53C5-972A-AC92-211965F143F3" name="TB_USUARIO_MISSAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3093D45-E49B-8044-2BC9-F7ABD3541843" name="TB_USUARIO_CONQUISTA">
 <createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:44:51 UTC</createdTime>
+<createdTime>2026-05-12 20:26:22 UTC</createdTime>
 <ownerDesignName>sprint</ownerDesignName>
 <engineerTo>
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="data_cumprimento" id="ACACF837-7864-AE97-266E-105B3DE18375">
+<Attribute name="data_conquista" id="D8B90085-1D10-93A1-ADB8-26876DE0AB34">
 <createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:46:27 UTC</createdTime>
+<createdTime>2026-05-12 21:02:13 UTC</createdTime>
 <ownerDesignName>sprint</ownerDesignName>
 <engineerTo>
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
@@ -27,10 +27,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="usuario_id" id="7EDE89A3-A036-6D32-AF21-133534656BBA">
+<Attribute name="usuario_id" id="8F6315F8-40D6-EACB-F54B-98150D4E57F6">
 <createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:48:22 UTC</createdTime>
-<generatorID>71B02988-901A-7E0E-C228-1BFB4B3E1337</generatorID>
+<createdTime>2026-05-12 21:01:44 UTC</createdTime>
+<generatorID>D3C452E8-1BF3-97F6-5801-5E43A3504C21</generatorID>
 <ownerDesignName>sprint</ownerDesignName>
 <engineerTo>
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
@@ -41,35 +41,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="missao_id" id="AEEBDC58-19F3-3606-0277-5B99624823E2">
+<Attribute name="conquista_id" id="9B26DD2C-140E-89CD-EF30-6E8C2BC65EF0">
 <createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:53:55 UTC</createdTime>
-<generatorID>8804EDB1-33F4-F0C8-3E76-52083CD90BF8</generatorID>
+<createdTime>2026-05-12 21:08:46 UTC</createdTime>
+<generatorID>1088266E-087E-E3C8-6AE9-811251D7FA26</generatorID>
 <ownerDesignName>sprint</ownerDesignName>
 <engineerTo>
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
 </engineerTo>
-<referedAttribute>B343372F-6AD1-020D-1977-C81573A9F031</referedAttribute>
+<referedAttribute>B2EF2671-60CF-79E8-6C90-4A7224012BCD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7BD3AD8B-52A2-9037-7938-D80DE5DEE8EB" name="PK_Usuario_Missao">
-<createdBy>wspot</createdBy>
-<createdTime>2026-05-04 01:01:16 UTC</createdTime>
-<ownerDesignName>sprint</ownerDesignName>
-<engineerTo>
-<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<newElementsIDs>AEEBDC58-19F3-3606-0277-5B99624823E2,7EDE89A3-A036-6D32-AF21-133534656BBA</newElementsIDs>
-<usedAttributes>
-<attributeRef>AEEBDC58-19F3-3606-0277-5B99624823E2</attributeRef>
-<attributeRef>7EDE89A3-A036-6D32-AF21-133534656BBA</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

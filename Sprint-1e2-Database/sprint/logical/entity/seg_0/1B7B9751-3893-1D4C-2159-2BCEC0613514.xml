@@ -39,6 +39,53 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="origem" id="40DC4D9F-BF88-5D79-D93C-9E514341408E">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:55:13 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destino" id="A757EDD8-E0CF-A0B5-9AB9-FF9E3C420A78">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:56:56 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_veiculo" id="B963CB36-AF8A-92FE-7DF5-571CE17D9C13">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:10:51 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="bicicleta" description=""/>
+<valueDef value="carro" description=""/>
+<valueDef value="metro" description=""/>
+<valueDef value="moto" description=""/>
+<valueDef value="onibus" description=""/>
+<valueDef value="trem" description=""/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="km_percorrido" id="7D07D9EB-3388-5E0B-3D67-D6872AD070AB">
 <createdBy>wspot</createdBy>
 <createdTime>2026-05-04 00:56:00 UTC</createdTime>
@@ -53,6 +100,34 @@
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,4,3</ownDataTypeParameters>
 </Attribute>
+<Attribute name="carbono_emitido" id="806D95B6-8746-4040-840E-6A5AE93150D1">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:37:03 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carbono_economizado" id="CF710BC9-EEA1-0099-B9F7-89779AB26065">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:37:17 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
 <Attribute name="usuario_id" id="EDF82484-38AC-8A76-1F2F-BC212934F83D">
 <createdBy>wspot</createdBy>
 <createdTime>2026-05-04 00:48:58 UTC</createdTime>
@@ -62,20 +137,6 @@
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
 </engineerTo>
 <referedAttribute>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="veiculo_id" id="22C567AB-8696-AD3D-3975-174CB93A6A05">
-<createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:52:31 UTC</createdTime>
-<generatorID>CDA184D9-71F5-1AD0-4CA7-D75DE4BB1490</generatorID>
-<ownerDesignName>sprint</ownerDesignName>
-<engineerTo>
-<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
-</engineerTo>
-<referedAttribute>220CB106-1294-6FDD-7C21-2CB71960A1D7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

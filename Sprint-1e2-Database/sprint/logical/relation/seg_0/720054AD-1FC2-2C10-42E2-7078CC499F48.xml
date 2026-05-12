@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="71B02988-901A-7E0E-C228-1BFB4B3E1337">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="720054AD-1FC2-2C10-42E2-7078CC499F48">
 <createdBy>wspot</createdBy>
-<createdTime>2026-05-04 00:48:22 UTC</createdTime>
+<createdTime>2026-05-12 20:34:30 UTC</createdTime>
 <ownerDesignName>sprint</ownerDesignName>
 <engineerTo>
 <item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>150B9E00-7A89-8DE8-A234-1E6CC8967B5D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>C2CB6DEA-53C5-972A-AC92-211965F143F3</targetEntity>
+<targetEntity>9D6A718E-338D-D8AB-D710-D070D1CE5A95</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
