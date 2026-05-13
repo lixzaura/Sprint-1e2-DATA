@@ -75,7 +75,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>9</dataTypeSize>
+<dataTypeSize>50</dataTypeSize>
 <listOfValues>
 <valueDef value="bicicleta" description=""/>
 <valueDef value="carro" description=""/>
@@ -84,7 +84,7 @@
 <valueDef value="onibus" description=""/>
 <valueDef value="trem" description=""/>
 </listOfValues>
-<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="km_percorrido" id="7D07D9EB-3388-5E0B-3D67-D6872AD070AB">
 <createdBy>wspot</createdBy>

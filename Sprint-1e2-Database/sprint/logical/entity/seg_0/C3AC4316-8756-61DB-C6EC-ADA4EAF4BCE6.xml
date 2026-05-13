@@ -37,8 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250</dataTypeSize>
-<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tipo" id="26F989C5-5354-1248-3B7D-94E6A43FDBD8">
 <createdBy>wspot</createdBy>
@@ -51,6 +51,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
+<listOfValues>
+<valueDef value="missoes" description=""/>
+<valueDef value="ranking" description=""/>
+</listOfValues>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descricao" id="DA36F875-A440-970D-3948-0F5202E5D9CC">
