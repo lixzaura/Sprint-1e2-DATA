@@ -1,5 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
+<<<<<<< HEAD:SprintSoulMove/SprintSoulMove/rel/5B58E48C-F4002EDAD1BF/foreignkey/seg_0/FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C.xml
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C" containerWithKeyObject="25162278-6EF5-32FB-EB1A-D017E5AC3D44" localFKIndex="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USU_MISS_TB_VIA_FK">
+=======
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C" containerWithKeyObject="25162278-6EF5-32FB-EB1A-D017E5AC3D44" localFKIndex="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USUARIOMISSAO_VIAGEM_FK">
+>>>>>>> 4c66997b2712431961a550d513dd4b787e4878d8:Sprint-1e2-Database/sprint/rel/5B58E48C-F4002EDAD1BF/foreignkey/seg_0/FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C.xml
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-13 13:33:56 UTC</createdTime>
 <generatorID>1A076D97-52CA-29E9-5531-D50DF9F47E06</generatorID>
