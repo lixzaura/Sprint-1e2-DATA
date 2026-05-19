@@ -93,9 +93,30 @@
 <colAssociation fkAssociation="FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C" referredColumn="55D970D4-F81A-2890-17EE-6EAAFF377FFB"/>
 </associations>
 </Column>
+<Column name="usuario_missao_id" id="A047EBD5-081C-8ED1-3ABE-F30A5CE712BF">
+<createdBy>victo</createdBy>
+<createdTime>2026-05-18 12:27:01 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="330BE5C9-E234-CF71-274A-C73D92939B66" name="TB_USUARIO_MISSAO_TB_USUARIO_FK">
+<ind_PK_UK id="8C4E85B4-7B82-8BE1-640F-5B24640546A1" name="TB_USUARIO_MISSAO_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-05-18 12:27:01 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A047EBD5-081C-8ED1-3ABE-F30A5CE712BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="330BE5C9-E234-CF71-274A-C73D92939B66" name="TB_USUARIOMISSAO_USUARIO_FK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-13 13:33:56 UTC</createdTime>
 <generatorID>720054AD-1FC2-2C10-42E2-7078CC499F48</generatorID>
@@ -106,7 +127,7 @@
 <colUsage columnID="CC46C60B-475A-B6E3-68C2-D3473364487C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D3CFD166-3478-D513-8F77-9C51112F0BF9" name="TB_USUARIO_MISSAO_TB_MISSAO_FK">
+<ind_PK_UK id="D3CFD166-3478-D513-8F77-9C51112F0BF9" name="TB_USUARIOMISSAO_MISSAOFK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-13 13:33:56 UTC</createdTime>
 <generatorID>CB14736C-6546-6258-07F7-C48EF7694894</generatorID>
@@ -117,7 +138,7 @@
 <colUsage columnID="655D4D0D-71C1-2DAD-0FE3-7DBACDFC2411"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USUARIO_MISSAO_TB_VIAGEM_FK">
+<ind_PK_UK id="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USUARIOMISSAO_VIAGEM_FK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-13 13:33:56 UTC</createdTime>
 <generatorID>1A076D97-52CA-29E9-5531-D50DF9F47E06</generatorID>
