@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D6A718E-338D-D8AB-D710-D070D1CE5A95" name="TB_USUARIO_MISSAO">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:10:07 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_cumprimento" id="F787A296-4839-1D54-A261-E58344D42D8D">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:14:14 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="4B94A5E6-3B6C-6490-763D-A268D4A87EDA">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:28:14 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="Concluida" description=""/>
+<valueDef value="cancelada" description=""/>
+<valueDef value="em_andamento" description=""/>
+<valueDef value="pendente" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pontuacao_recebida" id="405FFCB2-A13E-3B85-BA09-2D83B5DCAC3B">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:28:18 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="4B4830B8-D0A1-2BAE-64FF-E1BE68416F33">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:34:30 UTC</createdTime>
+<generatorID>720054AD-1FC2-2C10-42E2-7078CC499F48</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="missao_id" id="6761BA79-68CF-1B13-1CB7-59901CE92BB4">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:34:51 UTC</createdTime>
+<generatorID>CB14736C-6546-6258-07F7-C48EF7694894</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>B343372F-6AD1-020D-1977-C81573A9F031</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="viagem_id" id="ABDC59B1-FCA8-39E6-B2DD-53B45E35C78D">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:36:13 UTC</createdTime>
+<generatorID>1A076D97-52CA-29E9-5531-D50DF9F47E06</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>648302D2-B250-87E0-8D6E-2A5A20329983</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
