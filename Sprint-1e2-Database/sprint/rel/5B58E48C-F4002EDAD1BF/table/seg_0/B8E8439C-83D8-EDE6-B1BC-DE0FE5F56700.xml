@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8E8439C-83D8-EDE6-B1BC-DE0FE5F56700" name="TB_USUARIO_CONQUISTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>A3093D45-E49B-8044-2BC9-F7ABD3541843</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_conquista" id="896E2F01-F6F8-E0FE-4AE2-318B6E84131B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>D8B90085-1D10-93A1-ADB8-26876DE0AB34</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_USUARIO_usuario_id" id="8ABE503F-FF33-1F1B-A463-CD073930C719">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>8F6315F8-40D6-EACB-F54B-98150D4E57F6</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="757AA6D1-9B1B-08C5-BABC-B6B0B1925197" referredColumn="3880D30F-2C25-EBE6-CC34-9F789E8527E4"/>
+</associations>
+</Column>
+<Column name="TB_CONQUISTA_conquista_id" id="893E788D-31AC-2D7A-5362-01C8D2AED525">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>9B26DD2C-140E-89CD-EF30-6E8C2BC65EF0</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D5313AE-90B3-84CF-8DEB-2707BC8CC27E" referredColumn="0C775063-08A6-8DE1-4AD7-C04148C27B21"/>
+</associations>
+</Column>
+<Column name="usuario_conquista_id" id="F119280E-ACED-9F4B-8377-5430E49202F7">
+<createdBy>victo</createdBy>
+<createdTime>2026-05-18 05:11:07 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BFE6F95-C618-5711-2C54-C85C03DBDDFB" name="TB_USUARIO_CONQUISTA_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-05-18 05:11:07 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F119280E-ACED-9F4B-8377-5430E49202F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E48451B4-7265-0CF3-7259-5A66F5793DE0" name="TBUSUARIO_CONQUISTAUSUARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>D3C452E8-1BF3-97F6-5801-5E43A3504C21</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ABE503F-FF33-1F1B-A463-CD073930C719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="157DD0D7-C487-E5C9-6E9A-5D4C1EA46B0E" name="TBUSUARIOCONQUISTA_CONQUISTAFK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>1088266E-087E-E3C8-6AE9-811251D7FA26</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893E788D-31AC-2D7A-5362-01C8D2AED525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

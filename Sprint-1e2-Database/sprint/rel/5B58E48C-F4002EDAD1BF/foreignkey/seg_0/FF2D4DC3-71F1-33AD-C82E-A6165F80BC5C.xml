@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C" containerWithKeyObject="25162278-6EF5-32FB-EB1A-D017E5AC3D44" localFKIndex="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USUARIOMISSAO_VIAGEM_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>1A076D97-52CA-29E9-5531-D50DF9F47E06</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<referredTableLongName>TB_VIAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1DD41774-FF74-9C6E-BAA0-808D00CA7367</referredTableID>
+<keyObject>81AB6665-D265-8030-93CC-4A2E0EA48487</keyObject>
+<referredKeyID>81AB6665-D265-8030-93CC-4A2E0EA48487</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>viagem_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
