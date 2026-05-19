@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95CE8EC4-CC14-D428-3780-83028F1CB7F3" name="TB_MISSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>74531264-FE9B-DC9A-CAF4-12F8ED74D443</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="missao_id" id="B62F2AE1-E6F3-0254-54F4-5972169CDA2C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>B343372F-6AD1-020D-1977-C81573A9F031</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="0A9AED81-FEF3-DFD2-C663-EE88B74C1DD2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>63F80F2A-96BB-E7ED-0A99-FA65209BB695</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<listOfValues>
+<valueDef value="viagemBicicleta" description="Missoes envolvendo bicicleta"/>
+<valueDef value="viagemCarro" description="Missoes envolvendo carro"/>
+<valueDef value="viagemMetro" description="Missoes envolvendo metro"/>
+<valueDef value="viagemMoto" description="Missoes envolvendo moto"/>
+<valueDef value="viagemOnibus" description="Missoes envolvendo onibus"/>
+<valueDef value="viagemTrem" description="Missoes envolvendo trem"/>
+</listOfValues>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_missao" id="449E7275-5FE6-708E-033D-838EFB5E71C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>B9CB8D39-DF91-B6F3-CA1E-88B7CA5FA205</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="diária" description=""/>
+<valueDef value="semanal" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="0E491B62-6F23-F004-6266-8330895D36AE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>357EDC08-7CDE-DC78-A2E4-B5BF41DAF9E1</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pontos_missao" id="049C8E22-01F2-77BC-38E6-F017C57746D8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>34B60673-33EB-0EBA-619B-0F77AF61FC7C</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FEB5D95-1A5F-9FFF-16F1-F513B43EB03B" name="TB_MISSAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>FE88B48E-997C-4BFC-A232-0EC2F601914C</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B62F2AE1-E6F3-0254-54F4-5972169CDA2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

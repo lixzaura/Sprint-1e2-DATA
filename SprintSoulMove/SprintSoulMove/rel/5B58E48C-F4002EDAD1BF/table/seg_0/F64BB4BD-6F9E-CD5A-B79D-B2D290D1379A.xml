@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F64BB4BD-6F9E-CD5A-B79D-B2D290D1379A" name="TB_USUARIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>150B9E00-7A89-8DE8-A234-1E6CC8967B5D</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="3880D30F-2C25-EBE6-CC34-9F789E8527E4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E4F0C159-C7BC-AFBC-5841-14B423389516">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>99A250DC-EB8F-F526-3D57-140CE8D11288</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pontos" id="1006E18B-42C7-BB82-84BC-D3C085208494">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>D8714987-24C1-234F-C298-4CF9213CDAD7</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos" id="38BA9543-48BB-9C60-C80D-B3382E7ED672">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>B663C3CC-B7B8-312D-6397-B2BFE4113BF0</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="098A3E3E-3657-14EE-F2F9-808D6A6732EE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>DE774B4B-9903-6CD9-646F-BE41193B4705</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="EEBE7D8E-039A-15D2-A65A-C2ED233F93A3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>147B4C33-0F59-8C32-4FDC-22AEA0E8AFEB</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB9AD754-9803-469F-9522-BA6FE3C248E1" name="TB_USUARIO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>BE9E7714-81AB-5EBE-A125-1A615A20B8F4</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3880D30F-2C25-EBE6-CC34-9F789E8527E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

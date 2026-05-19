@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25162278-6EF5-32FB-EB1A-D017E5AC3D44" name="TB_USUARIO_MISSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>9D6A718E-338D-D8AB-D710-D070D1CE5A95</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_cumprimento" id="54D2BA20-E3CE-FC32-6FF1-8EA5CA3D50F6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>F787A296-4839-1D54-A261-E58344D42D8D</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_missao" id="1FA8792F-29DD-7188-12B3-9D1CBA6936E5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>4B94A5E6-3B6C-6490-763D-A268D4A87EDA</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="Concluida" description=""/>
+<valueDef value="cancelada" description=""/>
+<valueDef value="em_andamento" description=""/>
+<valueDef value="pendente" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pontuacao_recebida" id="A1D20A07-5BAB-093D-AC08-5ECCE45486CA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>405FFCB2-A13E-3B85-BA09-2D83B5DCAC3B</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_USUARIO_usuario_id" id="CC46C60B-475A-B6E3-68C2-D3473364487C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>4B4830B8-D0A1-2BAE-64FF-E1BE68416F33</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82ABAB09-75B5-6712-DCE5-432E07F44C9A" referredColumn="3880D30F-2C25-EBE6-CC34-9F789E8527E4"/>
+</associations>
+</Column>
+<Column name="TB_MISSAO_missao_id" id="655D4D0D-71C1-2DAD-0FE3-7DBACDFC2411">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>6761BA79-68CF-1B13-1CB7-59901CE92BB4</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F2C18C1-2A17-3083-DD2D-E4BD358F9BD8" referredColumn="B62F2AE1-E6F3-0254-54F4-5972169CDA2C"/>
+</associations>
+</Column>
+<Column name="TB_VIAGEM_viagem_id" id="F186D063-7EC7-00F5-0B6F-F81784B7A960">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>ABDC59B1-FCA8-39E6-B2DD-53B45E35C78D</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF2D4DC3-71F1-33AD-C82E-A6165F80BC5C" referredColumn="55D970D4-F81A-2890-17EE-6EAAFF377FFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="330BE5C9-E234-CF71-274A-C73D92939B66" name="TB_USU_MISS_TB_USU_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>720054AD-1FC2-2C10-42E2-7078CC499F48</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC46C60B-475A-B6E3-68C2-D3473364487C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3CFD166-3478-D513-8F77-9C51112F0BF9" name="TB_USU_MISS_TB_MISS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>CB14736C-6546-6258-07F7-C48EF7694894</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655D4D0D-71C1-2DAD-0FE3-7DBACDFC2411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="985B8BFB-8C35-2C27-37B3-38B7637876DD" name="TB_USU_MISS_TB_VIA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>1A076D97-52CA-29E9-5531-D50DF9F47E06</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F186D063-7EC7-00F5-0B6F-F81784B7A960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

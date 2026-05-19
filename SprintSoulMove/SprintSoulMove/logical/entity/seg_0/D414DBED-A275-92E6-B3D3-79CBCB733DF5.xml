@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D414DBED-A275-92E6-B3D3-79CBCB733DF5" name="TB_PONTOS">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 20:16:20 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pontos_id" id="A8DC7470-4101-3DE5-C823-8C2F8248FB6D">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:15:42 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origem" id="5D733BCC-999F-1A47-0D75-5796D3436722">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:15:53 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_pontuacao" id="35C3FD29-2655-41EB-DC9A-E2395F3584B4">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:16:56 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creditos_gerados" id="26FBF514-34BD-C9ED-C4F3-C75158C786A1">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:18:46 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="18DEC428-CF2E-F624-A7AA-E75B61D0980B">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:17:40 UTC</createdTime>
+<generatorID>DBF11085-8A95-155E-BD88-C9ACF4B7F492</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="true"/>
+</engineerTo>
+<referedAttribute>C800CAFA-DF2C-5CE5-4CF2-3E4875E7171D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCAF6CC4-8BF0-A001-78CB-78DB127C5523" name="TB_PONTOS PK">
+<createdBy>wspot</createdBy>
+<createdTime>2026-05-12 21:15:50 UTC</createdTime>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5B58E48C-1AC5-1C3A-23C9-F4002EDAD1BF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8DC7470-4101-3DE5-C823-8C2F8248FB6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

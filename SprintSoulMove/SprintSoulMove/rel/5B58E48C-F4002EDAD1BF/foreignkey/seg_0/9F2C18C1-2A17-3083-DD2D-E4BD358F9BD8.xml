@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F2C18C1-2A17-3083-DD2D-E4BD358F9BD8" containerWithKeyObject="25162278-6EF5-32FB-EB1A-D017E5AC3D44" localFKIndex="D3CFD166-3478-D513-8F77-9C51112F0BF9" name="TB_USU_MISS_TB_MISS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-13 13:33:56 UTC</createdTime>
+<generatorID>CB14736C-6546-6258-07F7-C48EF7694894</generatorID>
+<ownerDesignName>SprintSoulMove</ownerDesignName>
+<referredTableLongName>TB_MISSAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95CE8EC4-CC14-D428-3780-83028F1CB7F3</referredTableID>
+<keyObject>8FEB5D95-1A5F-9FFF-16F1-F513B43EB03B</keyObject>
+<referredKeyID>8FEB5D95-1A5F-9FFF-16F1-F513B43EB03B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>missao_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sprint" id="0131D90B-AE18-2BA3-89E4-497B4E5BF43E" version="3.5">
-<createdBy>wspot</createdBy>
-<createdTime>2026-05-03 23:38:03 UTC</createdTime>
-<ownerDesignName>sprint</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>0131D90B-AE18-2BA3-89E4-497B4E5BF43E</designId>
-</OSDM_Design>
